@@ -1,4 +1,4 @@
-package ejecutarprestamo;
+package paquete3;
 
 public class PrestamoEducativo extends Prestamo {
     private String nivelEstudio;
