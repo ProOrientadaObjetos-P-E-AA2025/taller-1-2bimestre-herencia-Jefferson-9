@@ -1,5 +1,9 @@
 package paquete3;
 
+import ejecutarprestamo.Prestamo;
+import paquete4.InstitucionEducativa;
+import paquete4.Persona;
+
 public class PrestamoEducativo extends Prestamo {
     private String nivelEstudio;
     private InstitucionEducativa centroEducativo;
