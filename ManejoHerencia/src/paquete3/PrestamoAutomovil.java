@@ -1,5 +1,8 @@
 package paquete3;
 
+import ejecutarprestamo.Prestamo;
+import paquete4.Persona;
+
 public class PrestamoAutomovil extends Prestamo {
     private String tipoAuto;
     private String marcaAuto;
