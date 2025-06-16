@@ -1,4 +1,4 @@
-package ejecutarprestamo;
+package paquete3;
 
 public class PrestamoAutomovil extends Prestamo {
     private String tipoAuto;
