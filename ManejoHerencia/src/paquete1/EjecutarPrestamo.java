@@ -1,7 +1,7 @@
 package paquete1;
 
-import ejecutarprestamo.Prestamo;
-import ejecutarprestamo.PrestamoEducativo;
+import paquete2.Prestamo;
+import paquete3.PrestamoEducativo;
 import java.util.Scanner;
 import java.util.ArrayList;
 import paquete3.PrestamoAutomovil;
