@@ -1,14 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package paquete3;
+package ejecutarprestamo;
 
-/**
- *
- * @author reroes
- */
-public class PrestamoAutomovil {
+public class PrestamoAutomovil extends Prestamo {
+    private String tipoAuto;
+    private String marcaAuto;
+    private Persona garante1;
+    private double valorAuto;
+    private double valorMensual;
+
+    public PrestamoAutomovil(String tipoAuto, String marcaAuto, Persona garante1, double valorAuto, Persona beneficiario, int tiempoMeses, String ciudad) {
+        super(beneficiario, tiempoMeses, ciudad.toLowerCase());
+        this.tipoAuto = tipoAuto;
+        this.marcaAuto = marcaAuto;
+        this.garante1 = garante1;
+        this.valorAuto = valorAuto;
+        calcularValorMensual();
+    }
     
+    public void calcularValorMensual() {
+        valorMensual = valorAuto / tiempoMeses;
+    }
+    
+    @Override
+    public String toString() {
+        return
+        String.format("=== Préstamo Automóvil ===\n%s\nTipo Auto: %s\nMarca: %s\nGarante: %s\nValor Auto: %.2f\nValor mensual: %.2f", 
+                super.toString(), tipoAuto, marcaAuto, garante1, valorAuto, valorMensual);
+    }
 }
