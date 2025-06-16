@@ -1,4 +1,4 @@
-package ejecutarprestamo;
+package paquete2;
 
 public class Prestamo {
     protected Persona beneficiario;
