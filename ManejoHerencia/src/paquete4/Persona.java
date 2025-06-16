@@ -1,4 +1,4 @@
-package ejecutarprestamo;
+package paquete4;
 
 public class Persona {
     private String nombre;
