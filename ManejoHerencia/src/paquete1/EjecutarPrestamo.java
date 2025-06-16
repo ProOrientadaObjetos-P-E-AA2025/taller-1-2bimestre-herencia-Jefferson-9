@@ -1,7 +1,12 @@
 package paquete1;
 
+import ejecutarprestamo.Prestamo;
+import ejecutarprestamo.PrestamoEducativo;
 import java.util.Scanner;
 import java.util.ArrayList;
+import paquete3.PrestamoAutomovil;
+import paquete4.InstitucionEducativa;
+import paquete4.Persona;
 
 public class EjecutarPrestamo {
     public static void main(String[] args) {
