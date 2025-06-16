@@ -1,5 +1,7 @@
 package paquete2;
 
+import paquete4.Persona;
+
 public class Prestamo {
     protected Persona beneficiario;
     protected int tiempoMeses;
